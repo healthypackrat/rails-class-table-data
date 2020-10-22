@@ -12,7 +12,7 @@ $ vagrant up
 $ vagrant ssh
 
 (vagrant) $ cd /vagrant/rails
-(vagrant) $ git checkout -b 6-0-stable origin/6-0-stable
+(vagrant) $ git checkout -b rdoc-v6.0.0 v6.0.0
 (vagrant) $ bundle
 (vagrant) $ bundle exec rake rdoc
 (vagrant) $ exit
